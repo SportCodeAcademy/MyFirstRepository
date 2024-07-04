@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class C_Creacion_Variables_Constantes {
 
     // Atajos:
@@ -26,13 +24,6 @@ public class C_Creacion_Variables_Constantes {
         variableString2 = "Hola, mundo";
         System.out.println(variableInt + variableString1 + variableString2);
 
-        // ------------Instanciación de Clases:-------------
-        // Se llama instanciar a la acción de crear un objeto a partir de una clase existente, por tanto cuando 
-        // se usa la palabra reservada “new” , se procede a instanciar un objeto de la clase especificada.
-        // Usa tanto la declaracion como la inicializacion de objetos.
-        Scanner escanner = new Scanner(System.in);
-        escanner.close();
-
         // AL CREAR CONSTANTES USAREMOS:
         // Para indicar que un dato es una constante, solo agregaremos "final" a la sintaxis:
         // final tipo identificador;
@@ -46,7 +37,7 @@ public class C_Creacion_Variables_Constantes {
 
         System.out.println(constanteInt + constanteString1 + constanteString2);
 
-        // Diferencias Clave entre VARRIABLES y CONSTANTES
+        // Diferencias Clave entre VARIABLES y CONSTANTES
         // Cambio de Valor: Las variables pueden cambiar de valor a lo largo del programa, mientras que las constantes 
         // no pueden cambiar una vez que se les asigna un valor.
         

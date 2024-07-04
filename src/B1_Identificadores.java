@@ -31,4 +31,9 @@ public class B1_Identificadores {
     // ESTRUCTURA BASICA DE VARIABLE:
     //  [Tipo de Dato]  [Identificador]  =  [Valor];
              int              edad        =   30;
+    
+    public static void main(String[] args) {
+        int anioActual = 2024;
+        System.out.println(anioActual);
+    }
 }

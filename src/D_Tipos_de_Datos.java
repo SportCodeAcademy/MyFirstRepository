@@ -38,9 +38,9 @@ public class D_Tipos_de_Datos {
         // Almacenan valores directamente y ocupan un tamaño específico 
         // en memoria. Ejemplos son int, byte, double, etc.
 
-        // Datos de Clase (o de Objeto) o Referentes:
-        // Almacenan referencias a objetos y tienen un tamaño
-        // fijo en memoria, generalmente 32 o 64 bits dependiendo de la arquitectura.
+        // Datos Referentes:
+        // Almacenan referencias a objetos y tienen un tamaño fijo en memoria, 
+        // generalmente 32 o 64 bits dependiendo de la arquitectura.
 
     // Datos primitivos:
     static void tiposPrimitivos() {
@@ -66,6 +66,7 @@ public class D_Tipos_de_Datos {
         imprimirDatos(tipoByte, tipoShort, tipoInt, tipoLong, tipoFloat, tipoDouble, tipoChar, tipoBoolean);
     }
 
+    // Datos de referencia:
     static class Miclase{
     }
 

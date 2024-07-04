@@ -1,4 +1,4 @@
-public class A_Punto_de_Entrada { 
+public class A1_Punto_de_Entrada { 
     
     // Firma Correcta del Método main:
     // Para ser considerado el punto de entrada de una aplicación Java, el método main debe cumplir con los siguientes requisitos:

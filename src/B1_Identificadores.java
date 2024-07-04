@@ -10,7 +10,7 @@ public class B1_Identificadores {
     // No pueden comenzar con un dígito.
 
     // 2.- Palabras reservadas:
-    // No pueden ser palabras clave/reservadas de Java (por ejemplo, int, class, if, else, etc.).
+    // No pueden ser palabras clave/reservadas de Java (por ejemplo, int, class, static, if, else, etc.).
     
     // 3.- Sensibilidad a mayúsculas y minúsculas (CaseSensitive):
     // Java distingue entre mayúsculas y minúsculas, por lo que Variable y variable son dos identificadores distintos.

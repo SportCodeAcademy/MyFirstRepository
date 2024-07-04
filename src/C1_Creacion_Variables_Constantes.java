@@ -1,4 +1,4 @@
-public class C_Creacion_Variables_Constantes {
+public class C1_Creacion_Variables_Constantes {
 
     // Atajos:
     // psvm: Genera el método public static void main(String[] args) { }.

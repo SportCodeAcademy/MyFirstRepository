@@ -4,6 +4,7 @@
 import java.util.Scanner;
 
 public class App {
+    
     static boolean exit = false;
 
     public static void main(String[] args) throws Exception {

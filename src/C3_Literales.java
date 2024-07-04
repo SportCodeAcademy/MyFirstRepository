@@ -1,4 +1,4 @@
-public class E1_Literales {
+public class C3_Literales {
     
     // ¿Que es un Literal?
     // Un literal es específicamente una representación constante y directa de un valor en el código fuente. 

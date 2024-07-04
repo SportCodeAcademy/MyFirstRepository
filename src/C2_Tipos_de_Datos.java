@@ -4,7 +4,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class D_Tipos_de_Datos {
+public class C2_Tipos_de_Datos {
     static boolean exit = false;
 
     public static void main(String[] args) throws Exception {

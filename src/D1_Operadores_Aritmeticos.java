@@ -1,4 +1,4 @@
-public class E2_Operadores_Aritmeticos {
+public class D1_Operadores_Aritmeticos {
 
     // OPERADORES ARITMETICOS:
     // Los operadores aritméticos son utilizados para realizar operaciones matemáticas 

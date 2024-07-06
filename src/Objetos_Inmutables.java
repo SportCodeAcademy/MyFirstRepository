@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 
-public class F_Objetos_Inmutables {
+public class Objetos_Inmutables {
     
     
     public static void main(String[] args) {

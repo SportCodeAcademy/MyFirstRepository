@@ -52,19 +52,17 @@ public class D1_Operadores_Aritmeticos {
         // Módulo
         int modulo = a % b; // modulo = 1 (resto de la división de 10 por 3)
 
-        // Incremento
-        a++;
-        // ahora 'a' es igual a 11
-
-        // Decremento
-        b--;
         // ahora 'b' es igual a 2
         System.out.println("La suma es: "+suma+"\n"+
                             "La resta es: "+resta+"\n"+
                             "La Multiplicacion es: "+multiplicacion+"\n"+
                             "La Division es: "+division+"\n"+
-                            "El modulo es:"+modulo+"\n"+
-                            "El incremento es:"+a+"\n"+
-                            "El decremento es:"+b);
+                            "El modulo es:"+modulo+"\n");
+
+        //Si vienes de Python, Javaascript, Ruby, PHP, etc...
+        //Sabes que en cuanto a la potenciacion es: int potencia = a ** b;
+        //En Java no existe un operador ** nativo. Se tendría que usar la clase Math.pow(a, b); o algo así.
+        double potencia = Math.pow(a, b);
+        System.out.println("La potencia es: " + potencia);
     }
 }

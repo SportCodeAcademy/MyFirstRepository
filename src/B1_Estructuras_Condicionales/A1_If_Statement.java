@@ -8,11 +8,20 @@ public class A1_If_Statement {
         
         // The If Statement (La sentencia Si-Entonces):
         // Caracteristicas:
-        // a): Evaluación de condicion: La sentencia siempre espera evaluar una condicion que devuelva true o false de tipo boolean. 
+        // a): Evaluación de condicion: La sentencia siempre espera evaluar una condicion que sea una "expresion" boolean.
         // En caso la expresion devuelva otro tipo de dato, marcará un error. En caso reciba un Boolean de tipo envolvente, hará unboxing.
+        // (En algunos lenguajes de programación como JavaScript, por ejemplo, se pueden usar expresiones que no son booleanas 
+        // directamente en contextos booleanos como el de un if. Esto se debe a cómo esos lenguajes manejan la conversión 
+        // automática de tipos (coerción de tipos). Que manejan los conceptos de truthy y falsy. En Java no existen estos conceptos) 
         // b): Terminación Abrupta: Si la evaluación de la expresión o la conversión a valor primitivo (unboxing) 
         // se detiene de manera inesperada (por ejemplo, debido a un error), la instrucción if también se detiene de manera inesperada por la misma razón.
         // c): Control de flujo: Permite controlar qué bloques de código se ejecutan en base al resultado de la condición.
+
+        // ¿Que es una expresion?
+        // Una expresión es cualquier combinación de variables, operadores y valores que se evalúa para 
+        // producir un resultado. En Java, las expresiones pueden incluir operaciones aritméticas, 
+        // llamadas a métodos, y accesos a variables.
+        // int edad = 18;
 
         // If-Then (si-entonces) estructura basica:
         // if (condicion booleana) {
